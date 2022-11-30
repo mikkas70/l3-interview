@@ -8,7 +8,7 @@ const Homepage = (): JSX.Element => {
             <p>Total number of red squares: 0</p>
             <div>
                 <button>Add square</button>
-                <button style={{marginLeft: '10px'}}>Remove first square</button>
+                <button style={{marginLeft: '10px'}}>Delete all squares</button>
             </div>
 
             <SquareContainer>
@@ -16,7 +16,7 @@ const Homepage = (): JSX.Element => {
             </SquareContainer>
 
             <div style={{marginTop: '20px'}}>
-                <button>Paint all squares red</button>
+                <button>Paint all squares blue</button>
                 <button style={{marginLeft: '10px'}}>Reset square colors</button>
             </div>
         </>
