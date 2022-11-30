@@ -8,11 +8,13 @@ const Homepage = (): JSX.Element => {
             <p>Total number of red squares: 0</p>
             <div>
                 <button>Add square</button>
-                <button style={{marginLeft: '10px'}}>Remove square</button>
+                <button style={{marginLeft: '10px'}}>Remove first square</button>
             </div>
+
             <SquareContainer>
                 <p>Squares should be placed inside</p>
             </SquareContainer>
+
             <div style={{marginTop: '20px'}}>
                 <button>Paint all squares red</button>
                 <button style={{marginLeft: '10px'}}>Reset square colors</button>
