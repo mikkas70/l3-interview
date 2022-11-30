@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface ISquareContainer {
-    children: JSX.Element;
+    children: React.ReactNode;
 }
 
 const SquareContainer = ({children}: ISquareContainer): JSX.Element => {
