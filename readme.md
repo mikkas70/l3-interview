@@ -32,11 +32,15 @@ Update the information displayed on the homepage according to the following:
 - "Total number of squares:" should represent the total count of square objects in the state.
 - "Total number of blue squares:" should represent the count of square objects in the state that have their `color` property set to 'blue'.
 
-## Task 5: Implementing a Custom Hook
+## Task 5: Implementing hooks
 
 Create and implement a custom hook within the Homepage component that handles the addition of new squares:
 
 - The hook should add a new square object with the `color` property set to 'blue' to the squares array in the state every 3 seconds.
+
+Create and implement a new custom hook within the Homepage component that handles the removal of squares:
+
+- When the amount of squares in state is greater than 10, the hook should remove all squares from the squares array.
 
 ## Task 6: Creating Actions
 
