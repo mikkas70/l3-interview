@@ -5,7 +5,7 @@ const Homepage = (): JSX.Element => {
     return (
         <>
             <p>Total number of squares: 0</p>
-            <p>Total number of red squares: 0</p>
+            <p>Total number of blue squares: 0</p>
 
             <SquareGrid>
                 <p>Squares should be placed inside</p>
