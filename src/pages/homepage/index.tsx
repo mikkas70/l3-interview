@@ -12,6 +12,7 @@ const Homepage = (): JSX.Element => {
             </SquareGrid>
 
             <div style={{marginTop: '20px'}}>
+                <button style={{marginRight:'20px'}}>Add red square</button>
                 <button>Paint all squares blue</button>
             </div>
         </>

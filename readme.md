@@ -22,7 +22,7 @@ Style the SquareGrid component using CSS Grid to arrange the Square components:
 Use CSS Grid layout to display the Square components in a grid with the following specifications:
 - Each row should have 5 squares, meaning every 5 squares should wrap onto a new row.
 - There should be a gap of 10px between each square.
-- The grid should be responsive and center-aligned on the page.
+- Each grid item should be centered horizontally.
 Note: The square component itself should not be modified for this task. All grid-related styling should be applied to the SquareGrid component.
 
 ## Task 4: Filtering Data
@@ -32,23 +32,23 @@ Update the information displayed on the homepage according to the following:
 - "Total number of squares:" should represent the total count of square objects in the state.
 - "Total number of blue squares:" should represent the count of square objects in the state that have their `color` property set to 'blue'.
 
-## Task 5: Implementing hooks
+## Task 5: Creating Actions
 
-Create and implement a custom hook within the Homepage component that handles the addition of new squares:
+Implement an action for the "Add red square" button:
 
-- The hook should add a new square object with the `color` property set to 'blue' to the squares array in the state every 3 seconds.
-
-Create and implement a new custom hook within the Homepage component that handles the removal of squares:
-
-- When the amount of squares in state is greater than 10, the hook should remove all squares from the squares array.
-
-## Task 6: Creating Actions
+- When this button is clicked, a new red square should be appended to the list of squares.
 
 Implement an action for the "Paint all squares blue" button:
 
 - When this button is clicked, every square object in the state should have its `color` property changed to 'blue', effectively painting all the squares blue.
 
+## Task 6: Implementing hooks
+
+Create and implement a custom hook within the Homepage component that handles the following logic:
+
+- When the amount of squares in state is greater than 10, the hook should remove all squares from the squares array.
+
 ## Task 7: Conditional Rendering
 Demonstrate your understanding of conditional rendering:
-Implement a feature such that if there are more than 5 squares in the grid, render a message saying "Wow, that's a lot of squares!" instead of the square count.
+Implement a feature such that if there are more than 8 squares in the grid, render a message saying "Wow, that's a lot of squares!" instead of the square count.
 
