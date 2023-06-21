@@ -7,7 +7,11 @@ interface ISquareGrid {
 const SquareGrid = ({children}: ISquareGrid): JSX.Element => {
     return (
         <div className='square-grid'>
-            {children}
+            {children?.map((child) => (
+                <div className='square-grid__item'>
+                    {child}
+                </div>
+            ))}
         </div>
     )
 };
