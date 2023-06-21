@@ -6,7 +6,7 @@ This coding challenge is designed to assess your skills in TypeScript and React 
 
 Update the Square component with the following requirements:
 
-- The square must be 30px by 30px in size.
+- The square must be 80px by 80px in size.
 - The Square component should accept a `color` prop which is a string representing a color (e.g., 'red', 'blue'). The Square's background color should reflect the value of this prop.
 
 ## Task 2: Managing State

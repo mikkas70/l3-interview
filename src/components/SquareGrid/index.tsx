@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface ISquareGrid {
-    children: JSX.Element;
+    children?: React.ReactElement[];
 }
 
 const SquareGrid = ({children}: ISquareGrid): JSX.Element => {
