@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 interface ISquareGrid {
-    children?: React.ReactElement[];
+    children?: React.ReactElement | React.ReactElement[];
 }
 
 const SquareGrid = ({children}: ISquareGrid): JSX.Element => {
     return (
         <div className='square-grid'>
-            {children?.map((child) => (
+            {React.Children.toArray(children)?.map((child) => (
                 <div className='square-grid__item'>
                     {child}
                 </div>
