@@ -21,8 +21,7 @@ Style the SquareGrid component using SCSS Grid to arrange the Square components:
 
 Use CSS Grid layout to display the Square components in a grid with the following specifications:
 - Each row should have 5 squares, meaning every 5 squares should wrap onto a new row.
-- There should be a gap of 10px between each square.
-- Each grid item should have its content centered horizontally.
+- Each grid item should have its content centered horizontally and vertically.
 Note: The square component itself should not be modified for this task. All grid-related styling should be applied to the SquareGrid component.
 
 ## Task 4: Filtering Data
