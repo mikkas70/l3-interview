@@ -4,7 +4,7 @@ This coding challenge is designed to assess your skills in TypeScript and React 
 
 ## Task 1: Creating the Square
 
-Update the Square component with the following requirements:
+Create a new component named "Square" with the following requirements:
 
 - The square must be 80px by 80px in size.
 - The Square component should accept a `color` prop which is a string representing a color (e.g., 'red', 'blue'). The Square's background color should reflect the value of this prop.
@@ -17,12 +17,12 @@ Update the Homepage component to manage an internal state representing an array 
 - Render a Square component inside the SquareGrid component for each square object in the state array. The `color` prop of each Square should match the `color` property of the corresponding square object.
 
 ## Task 3: Styling the Grid
-Style the SquareGrid component using CSS Grid to arrange the Square components:
+Style the SquareGrid component using SCSS Grid to arrange the Square components:
 
 Use CSS Grid layout to display the Square components in a grid with the following specifications:
 - Each row should have 5 squares, meaning every 5 squares should wrap onto a new row.
 - There should be a gap of 10px between each square.
-- Each grid item should be centered horizontally.
+- Each grid item should have its content centered horizontally.
 Note: The square component itself should not be modified for this task. All grid-related styling should be applied to the SquareGrid component.
 
 ## Task 4: Filtering Data
@@ -50,5 +50,5 @@ Create and implement a custom hook within the Homepage component that handles th
 
 ## Task 7: Conditional Rendering
 Demonstrate your understanding of conditional rendering:
-Implement a feature such that if there are more than 8 squares in the grid, render a message saying "Wow, that's a lot of squares!" instead of the square count.
+Implement a feature such that if there are more than 8 squares in the grid, render a message saying "Wow, that's a lot of squares!" instead of the total square count.
 
