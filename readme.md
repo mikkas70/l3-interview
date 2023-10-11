@@ -44,7 +44,7 @@ Implement an action for the "Paint all squares blue" button:
 
 ## Task 6: Implementing hooks
 
-Create and implement a custom hook within the Homepage component that handles the following logic:
+Use a hook within the Homepage component that handles the following logic:
 
 - When the amount of squares in state is greater than 10, the hook should remove all squares from the squares array.
 
